@@ -1,0 +1,297 @@
+/* universal select start use here */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* universal select end use here */
+
+/*====some common style used here for use full project start===  */
+body {
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary {
+    background: #e55473;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+    padding: 13px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.primary-title {
+    color: #272727;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.primary-decs {
+    color: #27272799;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    width: 40%;
+    margin: auto;
+    line-height: 24px;
+}
+.sub-title{
+    color: #E55473;
+}
+/*====some common style used here for use full project end===  */
+
+/* ----banner section style use start here---- */
+.banner-section {
+    background: #e554731a;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    padding: 0 125px;
+}
+.banner-title {
+    color: #272727;
+    font-size: 62px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 18px;
+    padding-right: 84px;
+}
+.banner-decs {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 150px;
+}
+.banner-photo {
+    width: 480px;
+    padding-top: 20px;
+}
+/* ----banner section style use end here---- */
+
+/* ----feature section style use star here---- */
+.feature-section {
+    padding: 80px 130px;
+}
+.feature-head {
+  text-align: center;
+}
+.feature-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.flower-category-one {
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+    width: 330px;
+    height: 380px;
+}
+.flower-category-two {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 330px;
+    height: 380px;
+}
+.flower-category-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 330px;
+    height: 380px;
+}
+.feature-image-one{
+    width: 215px;
+    padding: 82px 54px;
+}
+.feature-image-two{
+    width: 255px;
+    padding: 83px 42px;
+}
+.feature-image-three{
+    width: 210px;
+    padding: 65px 59px;
+}
+.flower-link{
+    color: #272727;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    padding-top: 20px;
+}
+.flower-link:hover{
+    color: #4c6195;
+}
+/* feature-support-section start here */
+.feature-support-section{
+    border-radius: 8px;
+    background: #2727270d;
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+    padding: 50px 66px;
+    align-items: center;
+}
+.support-item{
+    margin-right: 85px;
+}
+.feature-icon{
+    width: 60px;
+    margin: auto;
+}
+.feature-icon img{
+    
+    margin: auto;
+}
+.feature-support-decs{
+    color: #272727cc;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+}
+/* feature-support-section end here */
+/* ----feature section style use end here---- */
+
+/* ----sale-up-section style use start here---- */
+.sale-up-section{
+    background: #e554731a;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    padding: 0 125px;
+}
+.sale-up-content-part{
+    padding-top: 75px;
+}
+.sale-up-decs{
+    width: 65%;
+}
+.sale-btn{
+    text-align: center;
+}
+.sale-up-photo{
+    width: 220px;
+    padding: 45px 0 0 45px;
+}
+/* ----sale-up-section style use end here---- */
+
+/* ----instagram-section style use start here---- */
+.instagram-section{
+    padding: 110px 130px 90px 130px;
+}
+.instagram-photo-area{
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.instagram-img{
+    width: 250px;
+    height: 255px;
+}
+/* ----instagram-section style use end here---- */
+
+/* ----search-option section style use start here---- */
+.search-option-section{
+    margin: 0 130px 90px 130px;
+}
+.search-bg-photo{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.search-content-part{
+    position: absolute;
+    margin: -260px 0 0 358px;
+    width: 50%;
+}
+.search-head{
+    padding: 0 249px 0 0;
+}
+.form-area{
+    margin-left: -86px;
+}
+.form-area input{
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    width: 60%;
+    margin-right: 5px;
+}
+.subscribe-btn{
+    padding: 14px 15px;
+}
+/* ----search-option section style use end here---- */
+
+/* ----blog section style use start here---- */
+.blog-section{
+    color: #000;
+}
+.blog-head-area{
+    margin-bottom: 60px;
+}
+.flower-style{
+    color: #e55473;
+}
+.blog-box-area{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom:100px;
+}
+.box-item{
+    width: 330px;
+    height: 425px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 9px gray;
+    border-radius: 10px;
+}
+.box-photo{
+    width: 330px;
+    height:210px;
+    border-radius: 10px 10px 0 0;
+}
+.box-heading{
+    padding: 15px;
+    color: #494848;
+    font-size: 23px;
+}
+.box-decs{
+    padding: 0 18px 0 15px;
+    color: #494848;;
+    line-height: 22px;
+}
+.blog-btn{
+    text-align: center;
+}
+/* ----blog section style use end here---- */
+
+/* ----footer section style use start here---- */
+footer{
+    background: #111010;
+    color: #f7f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.footer-title{
+    color: #fff;
+}
+.footer-short-text{
+    color: #c9c6c6;
+    width: 70%;
+}
+/* footer copyright area style here */
+.copyright-part{
+    font-size: 12px;
+    color: #7a7a7a;
+    text-align: center;
+    padding-top: 30px;
+}
+/* ----footer section style use end here---- */
+
